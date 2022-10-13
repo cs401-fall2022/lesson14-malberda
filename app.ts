@@ -20,4 +20,16 @@
     }    
 }
 
+function turnYellow() {
+
+    if(document != null){
+        let c = document.getElementById("b1").style.color;
+        if(c === 'yellow'){
+            document.getElementById("b1").style.color = "purple";
+        }else{
+            document.getElementById("b1").style.color = "yellow";
+        }
+    }    
+}
+
 export {hello, turnRed}

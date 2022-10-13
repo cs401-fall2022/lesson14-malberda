@@ -14,7 +14,11 @@
         import {turnRed} from '/build/app.js'
         window.turnRed = turnRed;
     </script>
-    <body>
+    <body id="b1" onclick="turnYellow()">
+        <script type="module">
+            import {turnYellow} from '/build/app.js'
+            window.turnYellow = turnYellow;
+        </script>
         This information is from 
         <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html">here</a>
         <div>
