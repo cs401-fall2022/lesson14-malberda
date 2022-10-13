@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Typescript Tutorial</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>stylesheet</title>
         <link rel="stylesheet" href="./styles.css">
     </head>
-    <h1 id="header" onclick="turnRed()">TypeScript Basics</h1>
-    <script type="module">
-        import {turnRed} from '/build/app.js'
-        window.turnRed = turnRed;
-    </script>
+    <h1>TypeScript Basics</h1>
     <body>
         This information is from 
         <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html">here</a>
